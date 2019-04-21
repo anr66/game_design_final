@@ -201,6 +201,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 3
+  fireRate: 1
+  bulletPrefab: {fileID: 1447667845149018566, guid: 7c2cf27b7e4bdc840ae68d7312017baa,
+    type: 3}
+  barrelExit: {fileID: 8250813652346482525}
 --- !u!1 &3604354894933978557
 GameObject:
   m_ObjectHideFlags: 0
