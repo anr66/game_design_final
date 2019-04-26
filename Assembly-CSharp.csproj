@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\EnemyScript.cs" />
      <Compile Include="Assets\Scripts\Money.cs" />
      <Compile Include="Assets\Scripts\TowerScript.cs" />
+     <Compile Include="Assets\Scripts\Waypoint.cs" />
      <Compile Include="Assets\Viveport\Example\Scripts\ViveportDemo.cs" />
      <Compile Include="Assets\Viveport\Example\Scripts\ViveportDemo_ArcadeSession.cs" />
      <Compile Include="Assets\Viveport\Example\Scripts\ViveportDemo_DLC.cs" />

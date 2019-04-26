@@ -11,6 +11,8 @@ public class EnemyScript : MonoBehaviour {
 
     // How much the enemy is "worth" when destroyed
     public float worth = 4f;
+    public Transform currentWaypoint;
+    public float moveSpeed = 1f;
 
     void Awake() { 
         currentHealth = health;
@@ -20,7 +22,16 @@ public class EnemyScript : MonoBehaviour {
 
     }
     void Update() {
-        
+        transform.position = Vector3.MoveTowards(transform.position, currentWaypoint.position, moveSpeed * Time.deltaTime);
+
+        // Have we arrived
+        if (transform.position.Equals(currentWaypoint.position)) { 
+            // Is there a next waypoint?
+            Transform nextWaypoint = currentWaypoint.GetComponent<Waypoint>().nextWaypoint;
+            if (nextWaypoint != null) { 
+                currentWaypoint = nextWaypoint;
+            } 
+        }
     }
 
     public void Hurt(float damage) { 
