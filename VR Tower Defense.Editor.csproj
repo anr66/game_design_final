@@ -616,9 +616,6 @@
     <Reference Include="Boo.Lang">
       <HintPath>Library\UnityAssemblies\Boo.Lang.dll</HintPath>
     </Reference>
-    <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>Assets\SteamVR\Input\Plugins\JSON.NET\Valve.Newtonsoft.Json.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VR Tower Defense.csproj">
@@ -640,10 +637,6 @@
     <ProjectReference Include="VR Tower Defense.Plugins.csproj">
       <Project>{B25C959A-3E11-0379-A069-BE23EB7DDE78}</Project>
       <Name>VR Tower Defense.Plugins</Name>
-    </ProjectReference>
-    <ProjectReference Include="VR Tower Defense.csproj">
-      <Project>{8D0CAE31-7660-0E0D-26BE-7B2592040F94}</Project>
-      <Name>VR Tower Defense</Name>
     </ProjectReference>
     <ProjectReference Include="VR Tower Defense.csproj">
       <Project>{8D0CAE31-7660-0E0D-26BE-7B2592040F94}</Project>
@@ -693,14 +686,10 @@
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
-    <None Include="Assets\SteamVR\Editor\SteamVR_Editor.asmdef" />
-    <None Include="Assets\SteamVR\Input\Editor\SteamVR_Input_Editor.asmdef" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
-    <None Include="Assets\SteamVR\InteractionSystem\Samples\BuggyBuddy\Materials\LightCone.shader" />
-    <None Include="Assets\SteamVR\InteractionSystem\Samples\Squishy\SquishyDeform.shader" />
-    <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\HighlighGlobal.shader" />
+    <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
     <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
@@ -710,7 +699,6 @@
     <None Include="Assets\SteamVR\SteamVR.asmdef" />
     <None Include="Assets\SteamVR\WindowsHelper\SteamVR_Windows_EditorHelper.asmdef" />
     <None Include="Assets\SteamVR\readme.txt" />
-    <None Include="Assets\SteamVR_Input\SteamVR_Actions.asmdef" />
     <None Include="Packages\com.unity.analytics\DataPrivacy\Unity.Analytics.DataPrivacy.asmdef" />
     <None Include="Packages\com.unity.analytics\Tests\Editor\Unity.Analytics.StandardEvents\Unity.Analytics.StandardEvents.EditorTests.asmdef" />
     <None Include="Packages\com.unity.analytics\Tests\Runtime\DataPrivacy\Unity.Analytics.DataPrivacy.Tests.asmdef" />

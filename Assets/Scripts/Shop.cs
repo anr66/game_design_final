@@ -14,6 +14,20 @@ public class Shop : MonoBehaviour
     void Update()
     {
         moneyText.text = "Money: $" + Money.Amount;
+
+        if (boughtTower != null)
+        {
+            MovePurchasedTower();
+        }
+    }
+
+    void MovePurchasedTower()
+    {
+        // tower in fromt of camera
+        boughtTower.transform.position = Camera.main.transform.position +
+            Camera.main.transform.forward
+            
+            ;
     }
 
     public void BuyBasicTower()
@@ -25,7 +39,7 @@ public class Shop : MonoBehaviour
         }
 
         // spawn new tower
-        boughtTower = Instantiate(basicTowerPrefab, Camera.main.ScreenToWorldPoint(new Vector3(0.5f, 0.5f)), Quaternion.identity);
+        boughtTower = Instantiate(basicTowerPrefab, transform.position, Quaternion.identity);
 
         // make tower transparent
         Color color = boughtTower.GetComponent<Renderer>().material.color;
@@ -34,6 +48,8 @@ public class Shop : MonoBehaviour
 
         // take away money
         Money.Amount -= 40;
+
+        Debug.Log("button clicked");
     }
 
 }

@@ -166,6 +166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1429081897330078269}
   - component: {fileID: -3214679613326251166}
+  - component: {fileID: 292445682}
   m_Layer: 0
   m_Name: Tower1
   m_TagString: Untagged
@@ -205,6 +206,43 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1447667845149018566, guid: 7c2cf27b7e4bdc840ae68d7312017baa,
     type: 3}
   barrelExit: {fileID: 8250813652346482525}
+--- !u!23 &292445682
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429081897330078268}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3de668ec793ac7e45950ca48ab58496b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &3604354894933978557
 GameObject:
   m_ObjectHideFlags: 0
