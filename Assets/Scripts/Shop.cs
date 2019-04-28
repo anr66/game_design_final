@@ -10,6 +10,9 @@ public class Shop : MonoBehaviour
     public GameObject basicTowerPrefab;
     GameObject boughtTower;
 
+    public SteamVR_TrackedController tc;
+
+
     // Update is called once per frame
     void Update()
     {
@@ -18,6 +21,7 @@ public class Shop : MonoBehaviour
         if (boughtTower != null)
         {
             MovePurchasedTower();
+            CheckForWall();
         }
     }
 
@@ -25,9 +29,47 @@ public class Shop : MonoBehaviour
     {
         // tower in fromt of camera
         boughtTower.transform.position = Camera.main.transform.position +
-            Camera.main.transform.forward
-            
-            ;
+            Camera.main.transform.forward;
+    }
+
+    void CheckForWall()
+    {
+        // raycast
+        Ray raycast = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
+        RaycastHit hit;
+
+        //Debug.DrawRay(raycast.origin, raycast.direction * 100);
+
+        // check if the raycast hits something
+        if (Physics.Raycast(raycast, out hit))
+        {
+            if (tc.triggerPressed)
+            {
+                // hit a wall?
+                if (hit.collider.gameObject.tag == "Wall")
+                {
+                    //put tower on top wall
+                    boughtTower.transform.position = hit.collider.gameObject.transform.position + new Vector3(0.01f, -0.13f, 0.09f);
+                    //boughtTower.transform.position = hit.collider.gameObject.transform.position;// + new Vector3(0f, 0f, 0f);
+
+
+                    // disable wall tile
+                    hit.collider.gameObject.tag = "Untagged";
+
+                    // make tower transparent
+                    Color color = boughtTower.GetComponent<Renderer>().material.color;
+                    color.a = 1f;
+                    boughtTower.GetComponent<Renderer>().material.color = color;
+
+                    // enable script
+                    boughtTower.GetComponent<TowerScript>().enabled = true;
+
+                    // disconnect from the tower to buy another
+                    boughtTower = null;
+
+                }
+            }
+        }
     }
 
     public void BuyBasicTower()

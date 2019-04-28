@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TowerScript : MonoBehaviour {
 
-    public float range = 3.0f;
+    public float range = 0.3f;
     public float fireRate = 1.0f;
     public GameObject bulletPrefab;
     public Transform barrelExit;
@@ -33,14 +33,19 @@ public class TowerScript : MonoBehaviour {
             target = enemies[0].gameObject.transform;
             
             // Check the rest of the enemies
-            foreach (Collider enemy in enemies) { 
+            foreach (Collider enemy in enemies)
+            { 
                 // Distance between tower and next enemy
                 float distance = Vector3.Distance(transform.position, enemy.transform.position);
-                if (distance < Vector3.Distance(transform.position, target.position)) { 
+                if (distance < Vector3.Distance(transform.position, target.position))
+                { 
                     target = enemy.gameObject.transform;
                 }
             }
-        } else { 
+        }
+
+        else
+        { 
             // if enemies is empty, we have no target
             target = null;
         }
@@ -48,22 +53,27 @@ public class TowerScript : MonoBehaviour {
 
     void AimAtTarget() { 
         // Create a vector pointing from our tower, down at the enemy
-        Vector3 lookPos = target.position = transform.position;
+        Vector3 lookPos = target.position + transform.position;
 
         lookPos.y = 0f;
 
         // Not sure what a Quaternion is
-        Quaternion rotation = Quaternion.LookRotation(lookPos);
-        transform.rotation = rotation;
+        //Quaternion rotation = Quaternion.LookRotation(lookPos);
+        //transform.rotation = rotation;
     }
 
-    void Shoot() { 
-        if (fireCounter <= 0) { 
+    void Shoot()
+    { 
+        if (fireCounter <= 0)
+        { 
             // Instantiate creates any object, Quaternion.idenity means "Default" 
             GameObject newestBullet = Instantiate(bulletPrefab, barrelExit.position, Quaternion.identity);
             newestBullet.GetComponent<BulletScript>().target = target;
             fireCounter = fireRate;
-        } else { 
+        }
+
+        else
+        { 
             fireCounter -= Time.deltaTime;
         }
     }

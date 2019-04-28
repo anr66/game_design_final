@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2019.1.0f2</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -617,61 +615,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BulletScript.cs" />
-    <Compile Include="Assets\Scripts\EnemyScript.cs" />
-    <Compile Include="Assets\Scripts\Money.cs" />
-    <Compile Include="Assets\Scripts\Shop.cs" />
-    <Compile Include="Assets\Scripts\TowerScript.cs" />
-    <Compile Include="Assets\Scripts\VRUIInput.cs" />
-    <Compile Include="Assets\Scripts\VRUIItem.cs" />
-    <Compile Include="Assets\Scripts\Waypoint.cs" />
-    <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
-    <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
-    <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
-    <Compile Include="Assets\SteamVR\Extras\SteamVR_TestThrow.cs" />
-    <Compile Include="Assets\SteamVR\Extras\SteamVR_TestTrackedCamera.cs" />
-    <Compile Include="Assets\SteamVR\Extras\SteamVR_TrackedController.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Camera.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_CameraFlip.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_CameraMask.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Controller.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_ControllerManager.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Ears.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Events.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_ExternalCamera.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Fade.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Frustum.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_GameView.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_IK.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_LoadLevel.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Menu.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Overlay.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_PlayArea.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Render.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_RenderModel.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Skybox.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_SphericalProjection.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Stats.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_TestController.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedCamera.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
-    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
     <Compile Include="Packages\com.unity.analytics\DataPrivacy\AssemblyInfo.cs" />
     <Compile Include="Packages\com.unity.analytics\DataPrivacy\DataPrivacy.cs" />
     <Compile Include="Packages\com.unity.analytics\DataPrivacy\DataPrivacyButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
-    <None Include="Assets\Scripts\BulletScript.cs.meta" />
-    <None Include="Assets\Scripts\EnemyScript.cs.meta" />
-    <None Include="Assets\Scripts\Money.cs.meta" />
-    <None Include="Assets\Scripts\Shop.cs.meta" />
-    <None Include="Assets\Scripts\TowerScript.cs.meta" />
-    <None Include="Assets\Scripts\VRUIInput.cs.meta" />
-    <None Include="Assets\Scripts\VRUIItem.cs.meta" />
-    <None Include="Assets\Scripts\Waypoint.cs.meta" />
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
@@ -706,20 +655,6 @@
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
-    <None Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs.meta" />
-    <None Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs.meta" />
-    <None Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs.meta" />
-    <None Include="Assets\SteamVR\Extras\SteamVR_TestIK.unity" />
-    <None Include="Assets\SteamVR\Extras\SteamVR_TestIK.unity.meta" />
-    <None Include="Assets\SteamVR\Extras\SteamVR_TestThrow.cs.meta" />
-    <None Include="Assets\SteamVR\Extras\SteamVR_TestThrow.unity" />
-    <None Include="Assets\SteamVR\Extras\SteamVR_TestThrow.unity.meta" />
-    <None Include="Assets\SteamVR\Extras\SteamVR_TestTrackedCamera.cs.meta" />
-    <None Include="Assets\SteamVR\Extras\SteamVR_TestTrackedCamera.mat" />
-    <None Include="Assets\SteamVR\Extras\SteamVR_TestTrackedCamera.mat.meta" />
-    <None Include="Assets\SteamVR\Extras\SteamVR_TestTrackedCamera.unity" />
-    <None Include="Assets\SteamVR\Extras\SteamVR_TestTrackedCamera.unity.meta" />
-    <None Include="Assets\SteamVR\Extras\SteamVR_TrackedController.cs.meta" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
@@ -730,33 +665,6 @@
     <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_Camera.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_CameraFlip.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_CameraMask.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_Controller.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_ControllerManager.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_Ears.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_Events.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_ExternalCamera.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_Fade.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_Frustum.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_GameView.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_IK.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_LoadLevel.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_Menu.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_Overlay.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_PlayArea.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_Render.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_RenderModel.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_Skybox.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_SphericalProjection.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_Stats.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_TestController.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_TrackedCamera.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs.meta" />
-    <None Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs.meta" />
     <None Include="Assets\SteamVR\SteamVR.asmdef" />
     <None Include="Assets\SteamVR\WindowsHelper\SteamVR_Windows_EditorHelper.asmdef" />
     <None Include="Assets\SteamVR\readme.txt" />
@@ -798,7 +706,6 @@
     <None Include="Packages\com.unity.timeline\Tests\Editor\Unity.Timeline.Package.EditorTests.asmdef" />
     <None Include="Packages\com.unity.timeline\Tests\PlayMode\Unity.Timeline.Package.Tests.asmdef" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
 </Project>
