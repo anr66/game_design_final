@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>UnityEngine.ClusterInputModule</name>
+	</assembly>
+	<members>
+		<member name="T:UnityEngine.ClusterInputType">
+			<summary>Values to determine the type of input value to be expect from one entry of ClusterInput.</summary>
+		</member>
+		<member name="T:UnityEngine.ClusterInput">
+			<summary>Interface for reading and writing inputs in a Unity Cluster.</summary>
+		</member>
+		<member name="M:UnityEngine.ClusterInput.GetAxis(System.String)">
+			<summary>Returns the axis value as a continous float.</summary>
+		</member>
+		<member name="M:UnityEngine.ClusterInput.GetButton(System.String)">
+			<summary>Returns the binary value of a button.</summary>
+		</member>
+		<member name="M:UnityEngine.ClusterInput.GetTrackerPosition(System.String)">
+			<summary>Return the position of a tracker as a Vector3.</summary>
+		</member>
+		<member name="M:UnityEngine.ClusterInput.GetTrackerRotation(System.String)">
+			<summary>Returns the rotation of a tracker as a Quaternion.</summary>
+		</member>
+		<member name="M:UnityEngine.ClusterInput.SetAxis(System.String,System.Single)">
+			<summary>Sets the axis value for this input. Only works for input typed Custom.</summary>
+		</member>
+		<member name="M:UnityEngine.ClusterInput.SetButton(System.String,System.Boolean)">
+			<summary>Sets the button value for this input. Only works for input typed Custom.</summary>
+		</member>
+		<member name="M:UnityEngine.ClusterInput.SetTrackerPosition(System.String,UnityEngine.Vector3)">
+			<summary>Sets the tracker position for this input. Only works for input typed Custom.</summary>
+		</member>
+		<member name="M:UnityEngine.ClusterInput.SetTrackerRotation(System.String,UnityEngine.Quaternion)">
+			<summary>Sets the tracker rotation for this input. Only works for input typed Custom.</summary>
+		</member>
+		<member name="M:UnityEngine.ClusterInput.AddInput(System.String,System.String,System.String,System.Int32,UnityEngine.ClusterInputType)">
+			<summary>Add a new VRPN input entry.</summary>
+		</member>
+		<member name="M:UnityEngine.ClusterInput.EditInput(System.String,System.String,System.String,System.Int32,UnityEngine.ClusterInputType)">
+			<summary>Edit an input entry which added via ClusterInput.AddInput.</summary>
+		</member>
+		<member name="M:UnityEngine.ClusterInput.CheckConnectionToServer(System.String)">
+			<summary>Check the connection status of the device to the VRPN server it connected to.</summary>
+		</member>
+	</members>
+</doc>

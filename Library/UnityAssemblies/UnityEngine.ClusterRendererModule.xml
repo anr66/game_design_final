@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>UnityEngine.ClusterRendererModule</name>
+	</assembly>
+	<members>
+		<member name="T:UnityEngine.ClusterNetwork">
+			<summary>A helper class that contains static method to inquire status of Unity Cluster.</summary>
+		</member>
+		<member name="P:UnityEngine.ClusterNetwork.isMasterOfCluster">
+			<summary>Check whether the current instance is a master node in the cluster network.</summary>
+		</member>
+		<member name="P:UnityEngine.ClusterNetwork.isDisconnected">
+			<summary>Check whether the current instance is disconnected from the cluster network.</summary>
+		</member>
+		<member name="P:UnityEngine.ClusterNetwork.nodeIndex">
+			<summary>To acquire or set the node index of the current machine from the cluster network.</summary>
+		</member>
+	</members>
+</doc>

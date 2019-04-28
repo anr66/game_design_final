@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>UnityEngine.UnityAnalyticsModule</name>
+	</assembly>
+	<members>
+		<member name="T:UnityEngine.RemoteSettings.UpdatedEventHandler">
+			<summary>Defines the delegate signature for handling RemoteSettings.Updated events.</summary>
+		</member>
+		<member name="T:UnityEngine.RemoteSettings">
+			<summary>Provides access to your remote settings.</summary>
+		</member>
+		<member name="M:UnityEngine.RemoteSettings.ForceUpdate()">
+			<summary>Forces the game to download the newest settings from the server and update its values.</summary>
+		</member>
+		<member name="M:UnityEngine.RemoteSettings.WasLastUpdatedFromServer()">
+			<summary>Reports whether or not the settings available from the RemoteSettings object were received from the Analytics Service during the current session.</summary>
+		</member>
+		<member name="M:UnityEngine.RemoteSettings.GetInt(System.String)">
+			<summary>Gets the value corresponding to remote setting identified by key, if it exists.</summary>
+		</member>
+		<member name="M:UnityEngine.RemoteSettings.GetInt(System.String,System.Int32)">
+			<summary>Gets the value corresponding to remote setting identified by key, if it exists.</summary>
+		</member>
+		<member name="M:UnityEngine.RemoteSettings.GetLong(System.String)">
+			<summary>Gets the value corresponding to remote setting identified by key, if it exists.</summary>
+		</member>
+		<member name="M:UnityEngine.RemoteSettings.GetLong(System.String,System.Int64)">
+			<summary>Gets the value corresponding to remote setting identified by key, if it exists.</summary>
+		</member>
+		<member name="M:UnityEngine.RemoteSettings.GetFloat(System.String)">
+			<summary>Gets the value corresponding to remote setting identified by key, if it exists.</summary>
+		</member>
+		<member name="M:UnityEngine.RemoteSettings.GetFloat(System.String,System.Single)">
+			<summary>Gets the value corresponding to remote setting identified by key, if it exists.</summary>
+		</member>
+		<member name="M:UnityEngine.RemoteSettings.GetString(System.String)">
+			<summary>Gets the value corresponding to remote setting identified by key, if it exists.</summary>
+		</member>
+		<member name="M:UnityEngine.RemoteSettings.GetString(System.String,System.String)">
+			<summary>Gets the value corresponding to remote setting identified by key, if it exists.</summary>
+		</member>
+		<member name="M:UnityEngine.RemoteSettings.GetBool(System.String)">
+			<summary>Gets the value corresponding to remote setting identified by key, if it exists.</summary>
+		</member>
+		<member name="M:UnityEngine.RemoteSettings.GetBool(System.String,System.Boolean)">
+			<summary>Gets the value corresponding to remote setting identified by key, if it exists.</summary>
+		</member>
+		<member name="M:UnityEngine.RemoteSettings.HasKey(System.String)">
+			<summary>Reports whether the specified key exists in the remote settings configuration.</summary>
+		</member>
+		<member name="M:UnityEngine.RemoteSettings.GetCount()">
+			<summary>Gets the number of keys in the remote settings configuration.</summary>
+		</member>
+		<member name="M:UnityEngine.RemoteSettings.GetKeys()">
+			<summary>Gets an array containing all the keys in the remote settings configuration.</summary>
+		</member>
+	</members>
+</doc>

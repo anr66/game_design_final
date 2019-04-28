@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>UnityEngine.ScreenCaptureModule</name>
+	</assembly>
+	<members>
+		<member name="T:UnityEngine.ScreenCapture">
+			<summary>Functionality to take Screenshots.</summary>
+		</member>
+		<member name="T:UnityEngine.ScreenCapture.StereoScreenCaptureMode">
+			<summary>Enumeration specifying the eye texture to capture when using ScreenCapture.CaptureScreenshot and when stereo rendering is enabled.</summary>
+		</member>
+		<member name="M:UnityEngine.ScreenCapture.CaptureScreenshot(System.String)">
+			<summary>Captures a screenshot at path filename as a PNG file.</summary>
+		</member>
+		<member name="M:UnityEngine.ScreenCapture.CaptureScreenshot(System.String,System.Int32)">
+			<summary>Captures a screenshot at path filename as a PNG file.</summary>
+		</member>
+		<member name="M:UnityEngine.ScreenCapture.CaptureScreenshot(System.String,UnityEngine.ScreenCapture.StereoScreenCaptureMode)">
+			<summary>Captures a screenshot at path filename as a PNG file.</summary>
+		</member>
+		<member name="M:UnityEngine.ScreenCapture.CaptureScreenshotAsTexture()">
+			<summary>Captures a screenshot of the game view into a Texture2D object.</summary>
+		</member>
+		<member name="M:UnityEngine.ScreenCapture.CaptureScreenshotAsTexture(System.Int32)">
+			<summary>Captures a screenshot of the game view into a Texture2D object.</summary>
+		</member>
+		<member name="M:UnityEngine.ScreenCapture.CaptureScreenshotAsTexture(UnityEngine.ScreenCapture.StereoScreenCaptureMode)">
+			<summary>Captures a screenshot of the game view into a Texture2D object.</summary>
+		</member>
+		<member name="M:UnityEngine.ScreenCapture.CaptureScreenshotIntoRenderTexture(UnityEngine.RenderTexture)">
+			<summary>Captures a screenshot of the game view into a RenderTexture object.</summary>
+		</member>
+	</members>
+</doc>

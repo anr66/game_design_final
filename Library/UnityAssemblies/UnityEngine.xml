@@ -1,0 +1,92 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>UnityEngine</name>
+	</assembly>
+	<members>
+		<member name="T:UnityEngine.RPCMode">
+			<summary>Option for who will receive an RPC, used by NetworkView.RPC.</summary>
+		</member>
+		<member name="T:UnityEngine.NetworkPlayer">
+			<summary>The NetworkPlayer is a data structure with which you can locate another player over the network.</summary>
+		</member>
+		<member name="T:UnityEngine.ConnectionTesterStatus">
+			<summary>The various test results the connection tester may return with.</summary>
+		</member>
+		<member name="T:UnityEngine.NetworkViewID">
+			<summary>The NetworkViewID is a unique identifier for a network view instance in a multiplayer game.</summary>
+		</member>
+		<member name="T:UnityEngine.NetworkConnectionError">
+			<summary>Possible status messages returned by Network.Connect and in OnFailedToConnect in case the error was not immediate.</summary>
+		</member>
+		<member name="T:UnityEngine.NetworkView">
+			<summary>The network view is the binding material of multiplayer games.</summary>
+		</member>
+		<member name="T:UnityEngine.NetworkDisconnection">
+			<summary>The reason a disconnect event occured, like in OnDisconnectedFromServer.</summary>
+		</member>
+		<member name="T:UnityEngine.Network">
+			<summary>The network class is at the heart of the network implementation and provides the core functions.</summary>
+		</member>
+		<member name="T:UnityEngine.MasterServerEvent">
+			<summary>Describes status messages from the master server as returned in OnMasterServerEvent.</summary>
+		</member>
+		<member name="T:UnityEngine.BitStream">
+			<summary>The BitStream class represents seralized variables, packed into a stream.</summary>
+		</member>
+		<member name="T:UnityEngine.NetworkStateSynchronization">
+			<summary>Different types of synchronization for the NetworkView component.</summary>
+		</member>
+		<member name="T:UnityEngine.RPC">
+			<summary>Attribute for setting up RPC functions.</summary>
+		</member>
+		<member name="T:UnityEngine.NetworkPeerType">
+			<summary>Describes the status of the network interface peer type as returned by Network.peerType.</summary>
+		</member>
+		<member name="T:UnityEngine.HostData">
+			<summary>This is the data structure for holding individual host information.</summary>
+		</member>
+		<member name="T:UnityEngine.NetworkLogLevel">
+			<summary>Describes different levels of log information the network layer supports.</summary>
+		</member>
+		<member name="T:UnityEngine.MasterServer">
+			<summary>The Master Server is used to make matchmaking between servers and clients easy.</summary>
+		</member>
+		<member name="T:UnityEngine.NetworkMessageInfo">
+			<summary>This data structure contains information on a message just received from the network.</summary>
+		</member>
+		<member name="T:UnityEditorInternal.AnimatorControllerParameter">
+			<summary>Used to communicate between scripting and the controller. Some parameters can be set in scripting and used by the controller, while other parameters are based on Custom Curves in Animation Clips and can be sampled using the scripting API.</summary>
+		</member>
+		<member name="T:UnityEngine.AnimationInfo">
+			<summary>Information about what animation clips is played and its weight.</summary>
+		</member>
+		<member name="T:UnityEditorInternal.AnimatorControllerParameterType">
+			<summary>The type of the parameter.</summary>
+		</member>
+		<member name="T:UnityEngine.ProceduralMaterial">
+			<summary>Deprecated feature, no longer available</summary>
+		</member>
+		<member name="T:UnityEngine.ProceduralProcessorUsage">
+			<summary>Deprecated feature, no longer available</summary>
+		</member>
+		<member name="T:UnityEngine.ProceduralCacheSize">
+			<summary>Deprecated feature, no longer available</summary>
+		</member>
+		<member name="T:UnityEngine.ProceduralLoadingBehavior">
+			<summary>Deprecated feature, no longer available</summary>
+		</member>
+		<member name="T:UnityEngine.ProceduralPropertyType">
+			<summary>Deprecated feature, no longer available</summary>
+		</member>
+		<member name="T:UnityEngine.ProceduralOutputType">
+			<summary>Deprecated feature, no longer available</summary>
+		</member>
+		<member name="T:UnityEngine.ProceduralPropertyDescription">
+			<summary>Deprecated feature, no longer available</summary>
+		</member>
+		<member name="T:UnityEngine.ProceduralTexture">
+			<summary>Deprecated feature, no longer available</summary>
+		</member>
+	</members>
+</doc>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>UnityEngine.LocalizationModule</name>
+	</assembly>
+	<members>
+		<member name="T:UnityEngine.LocalizationAsset">
+			<summary>An asset to represent a table of localized strings for one specific locale.</summary>
+		</member>
+		<member name="P:UnityEngine.LocalizationAsset.localeIsoCode">
+			<summary>ISO Code used to identify the locale. ex: en-uk, zh-hans, ja</summary>
+		</member>
+		<member name="P:UnityEngine.LocalizationAsset.isEditorAsset">
+			<summary>Is this asset used to localize UI components of the Unity Editor</summary>
+		</member>
+		<member name="M:UnityEngine.LocalizationAsset.SetLocalizedString(System.String,System.String)">
+			<summary>Set the localized string for the specified key</summary>
+		</member>
+		<member name="M:UnityEngine.LocalizationAsset.GetLocalizedString(System.String)">
+			<summary>Get the localized string for the specified key.</summary>
+		</member>
+	</members>
+</doc>

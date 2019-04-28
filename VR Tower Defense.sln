@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Tower Defense", "VR Tower Defense.csproj", "{8D0CAE31-7660-0E0D-26BE-7B2592040F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Tower Defense", "VR Tower Defense.csproj", "{8D0CAE31-7660-0E0D-26BE-7B2592040F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Tower Defense", "VR Tower Defense.csproj", "{8D0CAE31-7660-0E0D-26BE-7B2592040F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Tower Defense", "VR Tower Defense.csproj", "{8D0CAE31-7660-0E0D-26BE-7B2592040F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Tower Defense.Plugins", "VR Tower Defense.Plugins.csproj", "{B25C959A-3E11-0379-A069-BE23EB7DDE78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Tower Defense", "VR Tower Defense.csproj", "{8D0CAE31-7660-0E0D-26BE-7B2592040F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Tower Defense", "VR Tower Defense.csproj", "{8D0CAE31-7660-0E0D-26BE-7B2592040F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Tower Defense.Editor", "VR Tower Defense.Editor.csproj", "{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Tower Defense.Editor", "VR Tower Defense.Editor.csproj", "{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Tower Defense.Editor.Plugins", "VR Tower Defense.Editor.Plugins.csproj", "{2F0E01D0-3A12-C706-3985-63CE5F4FEE77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Tower Defense.Editor", "VR Tower Defense.Editor.csproj", "{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Tower Defense.Editor", "VR Tower Defense.Editor.csproj", "{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Tower Defense.Editor", "VR Tower Defense.Editor.csproj", "{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Tower Defense.Editor", "VR Tower Defense.Editor.csproj", "{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Tower Defense.Editor", "VR Tower Defense.Editor.csproj", "{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25C959A-3E11-0379-A069-BE23EB7DDE78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25C959A-3E11-0379-A069-BE23EB7DDE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25C959A-3E11-0379-A069-BE23EB7DDE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25C959A-3E11-0379-A069-BE23EB7DDE78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0CAE31-7660-0E0D-26BE-7B2592040F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0E01D0-3A12-C706-3985-63CE5F4FEE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0E01D0-3A12-C706-3985-63CE5F4FEE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0E01D0-3A12-C706-3985-63CE5F4FEE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0E01D0-3A12-C706-3985-63CE5F4FEE77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB25EEA3-21A7-63ED-1AC9-1035250D7D06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

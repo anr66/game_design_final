@@ -1,0 +1,209 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>UnityEngine.AssetBundleModule</name>
+	</assembly>
+	<members>
+		<member name="T:UnityEngine.AssetBundleLoadResult">
+			<summary>The result of an Asset Bundle Load or Recompress Operation.</summary>
+		</member>
+		<member name="T:UnityEngine.AssetBundle">
+			<summary>AssetBundles let you stream additional assets via the UnityWebRequest class and instantiate them at runtime. AssetBundles are created via BuildPipeline.BuildAssetBundle.</summary>
+		</member>
+		<member name="T:UnityEngine.AssetBundleCreateRequest">
+			<summary>Asynchronous create request for an AssetBundle.</summary>
+		</member>
+		<member name="P:UnityEngine.AssetBundle.isStreamedSceneAssetBundle">
+			<summary>Return true if the AssetBundle is a streamed Scene AssetBundle.</summary>
+		</member>
+		<member name="P:UnityEngine.AssetBundleCreateRequest.assetBundle">
+			<summary>Asset object being loaded (Read Only).</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.UnloadAllAssetBundles(System.Boolean)">
+			<summary>Unloads all currently loaded Asset Bundles.</summary>
+		</member>
+		<member name="T:UnityEngine.AssetBundleManifest">
+			<summary>Manifest for all the AssetBundles in the build.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.GetAllLoadedAssetBundles()">
+			<summary>To use when you need to get a list of all the currently loaded Asset Bundles.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundleManifest.GetAllAssetBundles()">
+			<summary>Get all the AssetBundles in the manifest.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromFileAsync(System.String)">
+			<summary>Asynchronously loads an AssetBundle from a file on disk.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundleManifest.GetAllAssetBundlesWithVariant()">
+			<summary>Get all the AssetBundles with variant in the manifest.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromFileAsync(System.String,System.UInt32)">
+			<summary>Asynchronously loads an AssetBundle from a file on disk.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromFileAsync(System.String,System.UInt32,System.UInt64)">
+			<summary>Asynchronously loads an AssetBundle from a file on disk.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundleManifest.GetAssetBundleHash(System.String)">
+			<summary>Get the hash for the given AssetBundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromFile(System.String)">
+			<summary>Synchronously loads an AssetBundle from a file on disk.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundleManifest.GetDirectDependencies(System.String)">
+			<summary>Get the direct dependent AssetBundles for the given AssetBundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromFile(System.String,System.UInt32)">
+			<summary>Synchronously loads an AssetBundle from a file on disk.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromFile(System.String,System.UInt32,System.UInt64)">
+			<summary>Synchronously loads an AssetBundle from a file on disk.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundleManifest.GetAllDependencies(System.String)">
+			<summary>Get all the dependent AssetBundles for the given AssetBundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromMemoryAsync(System.Byte[])">
+			<summary>Asynchronously create an AssetBundle from a memory region.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromMemoryAsync(System.Byte[],System.UInt32)">
+			<summary>Asynchronously create an AssetBundle from a memory region.</summary>
+		</member>
+		<member name="T:UnityEngine.AssetBundleRecompressOperation">
+			<summary>Asynchronous AssetBundle recompression from one compression method and level to another.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromMemory(System.Byte[])">
+			<summary>Synchronously create an AssetBundle from a memory region.</summary>
+		</member>
+		<member name="P:UnityEngine.AssetBundleRecompressOperation.humanReadableResult">
+			<summary>A string describing the recompression operation result (Read Only).</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromMemory(System.Byte[],System.UInt32)">
+			<summary>Synchronously create an AssetBundle from a memory region.</summary>
+		</member>
+		<member name="P:UnityEngine.AssetBundleRecompressOperation.inputPath">
+			<summary>Path of the AssetBundle being recompressed (Read Only).</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromStreamAsync(System.IO.Stream,System.UInt32,System.UInt32)">
+			<summary>Asynchronously loads an AssetBundle from a managed Stream.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromStreamAsync(System.IO.Stream,System.UInt32)">
+			<summary>Asynchronously loads an AssetBundle from a managed Stream.</summary>
+		</member>
+		<member name="P:UnityEngine.AssetBundleRecompressOperation.outputPath">
+			<summary>Path of the resulting recompressed AssetBundle (Read Only).</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromStreamAsync(System.IO.Stream)">
+			<summary>Asynchronously loads an AssetBundle from a managed Stream.</summary>
+		</member>
+		<member name="P:UnityEngine.AssetBundleRecompressOperation.result">
+			<summary>Result of the recompression operation.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromStream(System.IO.Stream,System.UInt32,System.UInt32)">
+			<summary>Synchronously loads an AssetBundle from a managed Stream.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromStream(System.IO.Stream,System.UInt32)">
+			<summary>Synchronously loads an AssetBundle from a managed Stream.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadFromStream(System.IO.Stream)">
+			<summary>Synchronously loads an AssetBundle from a managed Stream.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.Contains(System.String)">
+			<summary>Check if an AssetBundle contains a specific object.</summary>
+		</member>
+		<member name="P:UnityEngine.AssetBundleRecompressOperation.success">
+			<summary>True if the recompress operation is complete and was successful, otherwise false (Read Only).</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAsset(System.String)">
+			<summary>Loads asset with name from the bundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAsset(System.String)">
+			<summary>Loads asset with name from the bundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAsset(System.String,System.Type)">
+			<summary>Loads asset with name from the bundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAssetAsync(System.String)">
+			<summary>Asynchronously loads asset with name from the bundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAssetAsync(System.String)">
+			<summary>Asynchronously loads asset with name from the bundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAssetAsync(System.String,System.Type)">
+			<summary>Asynchronously loads asset with name from the bundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAssetWithSubAssets(System.String)">
+			<summary>Loads asset and sub assets with name from the bundle.</summary>
+		</member>
+		<member name="T:UnityEngine.AssetBundleRequest">
+			<summary>Asynchronous load request from an AssetBundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAssetWithSubAssets(System.String)">
+			<summary>Loads asset and sub assets with name from the bundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAssetWithSubAssets(System.String,System.Type)">
+			<summary>Loads asset and sub assets with name from the bundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAssetWithSubAssetsAsync(System.String)">
+			<summary>Loads asset with sub assets with name from the bundle asynchronously.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAssetWithSubAssetsAsync(System.String)">
+			<summary>Loads asset with sub assets with name from the bundle asynchronously.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAssetWithSubAssetsAsync(System.String,System.Type)">
+			<summary>Loads asset with sub assets with name from the bundle asynchronously.</summary>
+		</member>
+		<member name="P:UnityEngine.AssetBundleRequest.asset">
+			<summary>Asset object being loaded (Read Only).</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAllAssets()">
+			<summary>Loads all assets contained in the asset bundle that inherit from type.</summary>
+		</member>
+		<member name="P:UnityEngine.AssetBundleRequest.allAssets">
+			<summary>Asset objects with sub assets being loaded. (Read Only)</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAllAssets()">
+			<summary>Loads all assets contained in the asset bundle that inherit from type.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAllAssets(System.Type)">
+			<summary>Loads all assets contained in the asset bundle that inherit from type.</summary>
+		</member>
+		<member name="T:UnityEngine.CompressionType">
+			<summary>Compression Method for Asset Bundles.</summary>
+		</member>
+		<member name="T:UnityEngine.CompressionLevel">
+			<summary>Compression Levels relate to how much time should be spent compressing Assets into an Asset Bundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAllAssetsAsync()">
+			<summary>Loads all assets contained in the asset bundle asynchronously.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAllAssetsAsync()">
+			<summary>Loads all assets contained in the asset bundle asynchronously.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.LoadAllAssetsAsync(System.Type)">
+			<summary>Loads all assets contained in the asset bundle asynchronously.</summary>
+		</member>
+		<member name="T:UnityEngine.BuildCompression">
+			<summary>Contains information about compression methods, compression levels and block sizes that are supported by Asset Bundle compression at build time and recompression at runtime.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.Unload(System.Boolean)">
+			<summary>Unloads all assets in the bundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.GetAllAssetNames()">
+			<summary>Return all asset names in the AssetBundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.GetAllScenePaths()">
+			<summary>Return all the Scene asset paths (paths to *.unity assets) in the AssetBundle.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.RecompressAssetBundleAsync(System.String,System.String,UnityEngine.BuildCompression,System.UInt32,UnityEngine.ThreadPriority)">
+			<summary>Asynchronously recompress a downloaded/stored AssetBundle from one BuildCompression to another.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.CreateFromFile(System.String)">
+			<summary>Loads an asset bundle from a disk.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.CreateFromMemory(System.Byte[])">
+			<summary>Asynchronously create an AssetBundle from a memory region.</summary>
+		</member>
+		<member name="M:UnityEngine.AssetBundle.CreateFromMemoryImmediate(System.Byte[])">
+			<summary>Synchronously create an AssetBundle from a memory region.</summary>
+		</member>
+	</members>
+</doc>

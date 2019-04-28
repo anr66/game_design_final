@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>UnityEngine.UIElementsModule</name>
+	</assembly>
+	<members>
+		<member name="T:UnityEngine.UIElements.Cursor">
+			<summary>Cursor API for setting the cursor (mouse pointer).</summary>
+		</member>
+		<member name="T:UnityEngine.UIElements.DropdownMenuAction.Status">
+			<summary>Status of the menu item.</summary>
+		</member>
+		<member name="T:UnityEngine.UIElements.PopupWindow">
+			<summary>Class used to display popup windows that inherit from PopupWindowContent.</summary>
+		</member>
+		<member name="T:UnityEngine.UIElements.UIVertex">
+			<summary>Vertex class used by a Canvas for managing vertices.</summary>
+		</member>
+		<member name="F:UnityEngine.UIElements.UIVertex.position">
+			<summary>Vertex position.</summary>
+		</member>
+		<member name="F:UnityEngine.UIElements.UIVertex.uv">
+			<summary>Vertex UV.</summary>
+		</member>
+		<member name="T:UnityEngine.UIElements.UIR.MeshRenderer">
+			<summary>Renders meshes inserted by the MeshFilter or TextMesh.</summary>
+		</member>
+		<member name="T:UnityEngine.Yoga.Logger">
+			<summary>Initializes a new instance of the Logger.</summary>
+		</member>
+	</members>
+</doc>

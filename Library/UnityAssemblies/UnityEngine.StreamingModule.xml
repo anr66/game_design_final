@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>UnityEngine.StreamingModule</name>
+	</assembly>
+	<members>
+		<member name="T:UnityEngine.StreamingController">
+			<summary>A StreamingController controls the streaming settings for an individual camera location.</summary>
+		</member>
+		<member name="P:UnityEngine.StreamingController.streamingMipmapBias">
+			<summary>Offset applied to the mipmap level chosen by the texture streaming system for any textures visible from this camera. This Offset can take either a positive or negative value.</summary>
+		</member>
+		<member name="M:UnityEngine.StreamingController.SetPreloading(System.Single,System.Boolean,UnityEngine.Camera)">
+			<summary>Initiate preloading of streaming data for this camera.</summary>
+		</member>
+		<member name="M:UnityEngine.StreamingController.CancelPreloading()">
+			<summary>Abort preloading.</summary>
+		</member>
+		<member name="M:UnityEngine.StreamingController.IsPreloading()">
+			<summary>Used to find out whether the StreamingController is currently preloading texture mipmaps.</summary>
+		</member>
+	</members>
+</doc>
